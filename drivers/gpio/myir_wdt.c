@@ -12,7 +12,7 @@
 
 #define DEV_NAME		"myir-watchdog"
 #define RESET_MS		400 /* Default reset period set to 400 ms */
-#define DEFAULT_WDI		379// PS_MIO0
+#define DEFAULT_WDI		377// PS_MIO41
 
 struct watchdog_data {
 	struct class class;
